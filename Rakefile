@@ -9,3 +9,7 @@ task :console do
   # Open a Pry session
   Pry.start
 end
+
+# The commands that are available to us seen through rake -T are made available to us by require 'sinatra/activerecord/rake'
+# To add a column we can use migrations to be able to manipulate existing tables
+# Best practice is creating new migrations to modify the existing tables.
